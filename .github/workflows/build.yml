@@ -55,7 +55,7 @@ jobs:
       uses: actions/checkout@v3
       if: env.DAPR_REF != ''
       with:
-        repository: dapr/dapr
+        repository: italypaleale/dapr
         ref: ${{ env.DAPR_REF }}
         path: dapr
     - name: Build and override dapr cli with referenced commit.
