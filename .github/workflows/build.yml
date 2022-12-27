@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         java: [ 11, 13, 15, 16 ]
+      fail-fast: false
     env:
       GOVER: 1.19
       GOOS: linux
